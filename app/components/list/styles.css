@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    overflow: scroll;
+    overflow: auto;
     padding: 15px ;
 }
 
 .cardContainer {
+    background:  rgb(249, 250, 249);
     display: flex;
     justify-content: center;
     align-items: center;

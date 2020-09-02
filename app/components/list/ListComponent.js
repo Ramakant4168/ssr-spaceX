@@ -13,10 +13,14 @@ export default class ListComponent extends Component{
              <div className={Styles.container}>
                {
                 
-                dataApi.length>0 ? dataApi.map((element)=>(<ListItem key={element.mission_name} mission={element}/>)) : <p></p>
+                dataApi.length>0 ? dataApi.map((element)=>(<ListItem key={element.mission_name} mission={element}/>)) : 
+                <div style={{display:'flex',flex:1,alignItems:'center',justifyContent:'center',flexDirection:'row',marginLeft:'500px'}}>
+                  No Data !!!
+                </div>
                 
                }
              </div>
+             
          )
      } 
 

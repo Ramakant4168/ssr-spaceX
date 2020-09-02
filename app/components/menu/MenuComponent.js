@@ -2,7 +2,7 @@
 import React,{Component} from 'react'
 import Styles from './styles.css'
 
-const buttonStyle={margin:5, backgroundColor:'#d9fad9'}
+const buttonStyle={margin:5, backgroundColor:'#d9fad9', borderColor: 'honeydew'}
 
 export default class MenuComponent extends Component{
 
@@ -76,10 +76,28 @@ export default class MenuComponent extends Component{
                     /></div>
                      
                      <div>
-                         <button onClick={()=>this.props.handleYearClick(true)}style={buttonStyle}>True</button>
-                        <button onClick={()=>this.props.handleYearClick(false)} style={buttonStyle}>false</button>
+                         <button onClick={()=>this.props.handleLaunchClick(true)}style={buttonStyle}>True</button>
+                        <button onClick={()=>this.props.handleLaunchClick(false)} style={buttonStyle}>false</button>
                     </div>
                  </div>
+                 <div className={Styles.launchContainer} >
+                    <div>
+                    <p>Landing Launch </p>
+                        <hr
+                        style={{
+                            color: 'black',
+                            backgroundColor: 'black',
+                            height: 1,
+                            width : '100%'
+                        }}
+                    /></div>
+                     
+                     <div>
+                         <button onClick={()=>this.props.handleLandingClick(true)}style={buttonStyle}>True</button>
+                        <button onClick={()=>this.props.handleLandingClick(false)} style={buttonStyle}>false</button>
+                    </div>
+                 </div>
+                 
             </div>
          )
      } 
