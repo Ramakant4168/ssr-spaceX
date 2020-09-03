@@ -104,10 +104,6 @@ export default class App extends Component {
     })
   }
 
-  handleLandingClick = (launch) => {
-   
-  }
-
   getAllData = () => {
 
     let {selectedLaunch, selectedYear} = this.state;
@@ -136,7 +132,7 @@ export default class App extends Component {
     return (
       <div className={styles.wrapper}>
         <div className={styles.header}>
-          <p5>SpaceX Launch Programme</p5>
+          <p5>SpaceX Launch Programs</p5>
         </div>
         <div className={styles.container}>
           <div className={styles.menu}>

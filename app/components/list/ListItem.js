@@ -2,9 +2,6 @@
 import React,{Component} from 'react'
 import Styles from './styles.css'
 
-const fontStyle = {
-    color : 'blue'
-}
 export default class ListItem extends Component{
 
     

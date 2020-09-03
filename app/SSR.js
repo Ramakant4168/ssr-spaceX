@@ -7,6 +7,6 @@ export default function render(req, res) {
   const appString = renderToStaticMarkup(<App />);
   res.send(template({
     body: appString,
-    title: 'SpaceX',
+    title: 'SpaceX Mission Programs',
   }));
 }

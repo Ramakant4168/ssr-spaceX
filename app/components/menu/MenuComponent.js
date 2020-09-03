@@ -80,24 +80,6 @@ export default class MenuComponent extends Component{
                         <button onClick={()=>this.props.handleLaunchClick(false)} style={buttonStyle}>false</button>
                     </div>
                  </div>
-                 {/* <div className={Styles.launchContainer} >
-                    <div>
-                    <p>Landing Launch </p>
-                        <hr
-                        style={{
-                            color: 'black',
-                            backgroundColor: 'black',
-                            height: 1,
-                            width : '100%'
-                        }}
-                    /></div>
-                     
-                     <div>
-                         <button onClick={()=>this.props.handleLandingClick(true)}style={buttonStyle}>True</button>
-                        <button onClick={()=>this.props.handleLandingClick(false)} style={buttonStyle}>false</button>
-                    </div>
-                 </div> */}
-                 
             </div>
          )
      } 
