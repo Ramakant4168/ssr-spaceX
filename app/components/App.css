@@ -47,9 +47,11 @@
   }
 
   .header {
-
     padding-left: 15px;
-  
+  }
+
+  .content {
+    margin-left: 0;
   }
 }
 
