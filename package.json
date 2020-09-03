@@ -7,7 +7,9 @@
   "scripts": {
     "heroku-prebuild": "npm install --dev",
     "build:dev": "webpack --config ./webpack/webpack.config.dev-ssr.js ",
-    "start": "npm run build:dev && babel-node -- server/index.js"
+    "start": "babel-node -- server/index.js",
+    "postinstall": "npm run build:dev"
+
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
