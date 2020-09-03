@@ -113,13 +113,15 @@ export default class App extends Component {
           this.setState({
             dataApi: result.data,
             response: result.data,
-            error: false
+            error: false,
+            isLoading: false
           })
         })
         .catch((error) => {
           this.setState({
             dataApi: [],
-            error: true
+            error: true,
+            isLoading: false
           })
         })
     })
