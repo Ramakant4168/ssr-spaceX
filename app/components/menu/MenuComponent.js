@@ -92,10 +92,10 @@ export default class MenuComponent extends Component{
                         }}
                     /></div>
                      
-                     <div>
+                     {/* <div>
                          <button onClick={()=>this.props.handleLandingClick(true)}style={buttonStyle}>True</button>
                         <button onClick={()=>this.props.handleLandingClick(false)} style={buttonStyle}>false</button>
-                    </div>
+                    </div> */}
                  </div>
                  
             </div>

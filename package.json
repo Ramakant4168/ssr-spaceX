@@ -8,7 +8,8 @@
     "heroku-prebuild": "npm install --dev",
     "build:dev": "webpack --config ./webpack/webpack.config.dev-ssr.js ",
     "start": "babel-node -- server/index.js",
-    "postinstall": "npm run build:dev"
+    "postinstall": "npm run build:dev",
+    "dev" : "npm run build:dev && npm run start"
 
   },
   "devDependencies": {

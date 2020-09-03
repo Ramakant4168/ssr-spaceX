@@ -2,7 +2,7 @@
   background: rgb(231, 229, 229);
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100%; 
 }
 
 .header {
@@ -26,7 +26,8 @@
   background: rgb(249, 250, 249);
   display: flex;
   flex :1.5;
-  height: 100%;
+  height: 95%
+  
 }
 
 
@@ -36,26 +37,29 @@
   flex :8;
   margin-left: 10;
 }
-/* 
+
 @media screen and (max-width: 700px){
-  .wrapper {
-    background: rgb(163, 80, 80);
+  .container {
+    display: unset;
   }
-  .content {
-    display: flex;
+  .container {
     flex-direction: column;
+  }
+
+  .header {
+
+    padding-left: 15px;
+  
   }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1024px){
-  .wrapper {
-    background: rgb(174, 201, 20);
+
+  .menu {
+    flex :3.5;
   }
 }
 
-
 @media screen and (min-width: 1025px) and (max-width: 1440px){
-  .wrapper {
-    background: rgb(156, 202, 245);
-  }
-} */
+  
+}
